@@ -11,23 +11,23 @@ const Sidebar = () => {
 
     <ul>
         <li>
-            <Link to="/"><i className="fi fi-rr-home"></i> Home</Link>
+            <Link to="/"><i className="fi fi-rr-home"></i> <span>Home</span></Link>
         </li>
         <li>
-            <Link to="/"><i className="fi fi-rr-plus"></i> Post</Link>
+            <Link to="/"><i className="fi fi-rr-plus"></i> <span>Post</span></Link>
         </li>
         <li>
-            <Link to="/search"><i className="fi fi-rr-search"></i> Search</Link>
+            <Link to="/search"><i className="fi fi-rr-search"></i> <span>Search</span></Link>
         </li>
 
         <li>
-            <Link to="/notification"><i className="fi fi-rr-bell"></i> Notification</Link>
+            <Link to="/notification"><i className="fi fi-rr-bell"></i> <span>Notification</span></Link>
         </li>
         <li>
-            <Link to="/"><i className="fi fi-rr-bookmark"></i> Bookmark</Link>
+            <Link to="/"><i className="fi fi-rr-bookmark"></i> <span>Bookmark</span></Link>
         </li>
         <li>
-            <Link to="/sign-in"><i className="fi fi-rr-user"></i> Profile</Link>
+            <Link to="/sign-in"><i className="fi fi-rr-user"></i> <span>Profile</span></Link>
         </li>
 
     </ul>
